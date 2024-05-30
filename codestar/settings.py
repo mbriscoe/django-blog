@@ -34,10 +34,10 @@ if os.path.isfile("env.py"):
 else:
     DEBUG = False
 
-ALLOWED_HOSTS = [".herokuapp.com", ".gitpod.io"]
+ALLOWED_HOSTS = [".herokuapp.com", ".codeinstitute-ide.net"]
 
 CSRF_TRUSTED_ORIGINS = [
-    "https://*.gitpod.io",
+    "https://*.codeinstitute-ide.net",
     "https://*.herokuapp.com",
 ]
 
