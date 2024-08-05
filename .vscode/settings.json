@@ -26,5 +26,6 @@
    "editor.defaultFormatter": "HookyQR.beautify",
    "[django-html]": {
       "editor.defaultFormatter": "esbenp.prettier-vscode"
-   }
+   },
+   "explorer.compactFolders": false
 }
