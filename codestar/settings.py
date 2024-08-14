@@ -36,11 +36,12 @@ if os.path.isfile("env.py"):
 else:
     DEBUG = False
 
-ALLOWED_HOSTS = [".herokuapp.com", ".codeinstitute-ide.net"]
+ALLOWED_HOSTS = [".herokuapp.com", ".codeinstitute-ide.net", ".ui.dev"]
 
 CSRF_TRUSTED_ORIGINS = [
     "https://*.codeinstitute-ide.net",
     "https://*.herokuapp.com",
+    "https://*.ui.dev",
 ]
 
 
